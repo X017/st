@@ -1,16 +1,3 @@
-==================================================================================================
-my build lacks some functionalitys , when i have free time or added new thing i update this repo =
-i didn't configure it that much its just defaults with some patches applied.                     =
-Patches Applied:                                                                                 =
-    st-scrollback                                                                                =
-    st-alpha-20220206-0.8.5                                                                      =
-    st-w3m-0.8.3                                                                                 =
-    st-boxdraw_v2-0.8.3                                                                          =
-    st-anysize-0.8.1                                                                             =
-    st-scrollback-mouse                                                                          =
-    st-nordtheme-0.8.2                                                                           =
-==================================================================================================
-
 st - simple terminal
 --------------------
 st is a simple terminal emulator for X which sucks less.
@@ -30,3 +17,18 @@ Afterwards enter the following command to build and install st (if
 necessary as root):
 
     make clean install
+
+
+Running st
+----------
+If you did not install st with make clean install, you must compile
+the st terminfo entry with the following command:
+
+    tic -sx st.info
+
+See the man page for additional details.
+
+Credits
+-------
+Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+

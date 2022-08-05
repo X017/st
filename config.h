@@ -9,7 +9,7 @@ static char *font = "consolas:pixelsize=19:antialias=true:autohint=true";
 static int borderpx = 13;
 /* Spare fonts */
 static char *font2[] = {
-     "Noto Color Emoji:size=19"
+     "Noto Color Emoji:size=13:antialias=true:autohint=true:autoresize=true"
 };
 
 
